@@ -86,7 +86,7 @@
 #     age=int(input("Age:"))
 #     student={"Name":name, "Age":age}
 #     students.append(student)
-# with open("student.csv", mode="w", newline="") as file:
+# with open("student.csv", mode="w", newline="") as file:   # to append use 'a',  'w' removes existing and writes
 #     fieldnames=["Name","Age"]
 #     writer=csv.DictWriter(file,fieldnames=fieldnames)
 #     writer.writeheader()
@@ -95,14 +95,15 @@
 # print("In csv file")
 
 # #Program 8: Now, can we load the data from the csv file?
-# import csv
-# students = []
-# with open("student.csv", mode="r") as file:
-#         reader=csv.DictReader(file)
-#         for r in reader:
-#           students.append(r)
-# for student in students:
-#    print(student)
+import csv
+students = []
+with open("student.csv", mode="r") as file:
+        reader=csv.DictReader(file)
+        for r in reader:
+          students.append(r)
+for student in students:
+   print(student)
 
 
-# Program 9: Can we import a math library to do mathematical aggregations?
+# # Program 9: Can we import a math library to do mathematical aggregations?
+# import math
