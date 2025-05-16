@@ -1,0 +1,48 @@
+predictive decisions
+prescriptive decisions
+descriptive decisions
+
+may-13 class
+Statistics is the discipline that concerns the collection, organization, analysis, interpretation, and 
+presentation of data. In applying statistics to a scientific, industrial, or social problem,
+ it is conventional to begin with a statistical population or a statistical model to be studied.
+
+statistics: foundation of data science, ml, decision making
+-healthcare, finance, educationm marketing,sport analysis
+
+-Real world decidions are driven by data.
+foundations of statistics= data, popn, descriptive measures,
+
+Simple random sample:
+Definition: Every member of a population has an equal chance of being selected to be in the sample. 
+Randomly select members through the use of a random number generator or some means of random selection. 
+
+Stratified random sample
+Definition: Split a population into groups. Randomly select some members from each group to be in the sample.
+
+Cluster random sample
+Definition: Split a population into clusters.
+ Randomly select some of the clusters and include all members from those clusters in the sample.
+
+Systematic random sample
+
+Non-probability Sampling Methods
+Another class of sampling methods is known as non-probability sampling methods because not every member
+ in a population has an equal probability of being selected to be in the sample.
+
+3. undrstanding variables and measurements
+variables- quantative, 
+
+
+
+analyzing data distributions and central tendencies
+how values are spread in datasets
+mean= to determine outlier
+median= middle values
+mode= frequently repeated values
+
+measure of disperssion
+range=max val-min val
+
+ 2-1
+###cussor.ai for development

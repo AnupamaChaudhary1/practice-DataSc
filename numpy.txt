@@ -1,0 +1,7 @@
+numeric python
+# calcute average of a marks of student.
+sita=[80,40,60,65,78]
+
+
+simulate marks of 10 students in 5 subjects. Each mark should be between 35 and 100.
+
