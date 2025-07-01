@@ -1,0 +1,29 @@
+Text Mining in python
+- Extracting meaningful information from Text.
+- Application:
+  > Sentimental Analysis
+  > Spam detection
+  > Chatbots
+  > Search Engines
+
+> NLP
+Nlp is the science of making machines understand human language.
+
+- Library: NLPK 
+
+> Text Processing: Text must be cleaned before Analysis.
+- Lower Casing: standardizes the Text
+- removing punctuation: it is actually a noise.
+- Tokenization: splitting sentence into words
+- remove stop words: common words like the, is, that don't add meaning
+- steamming: cutting words to their base. eg: running --> run
+- lemamatization: more intelligent version of steamming (eg. better--> good)
+
+"The cats are running":
+
+1. Web:
+
+
+Streamlit
+using this we can deploy any machine learning model and any python project with ease.
+
