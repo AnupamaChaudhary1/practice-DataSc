@@ -1,0 +1,68 @@
+Unsupervised learning is like giving the computer a bunch of data without any answers and asking it:
+- Can you dind something interesting here?
+Real World Analogy:
+- Its like giving a kid a box of Legos without instructions and seeing how they group them by size, shape, or color on their own.
+- Imagine giving a box full of mixed socks to someone and asking them to group them however they want- maybe by color, size, or pattern. We
+are saying anything on how to do it. This is unsuperised algorithm.
+
+Examples: 
+- recommendation systems
+- Anomaly  detection
+
+How does computer find patterns?
+- The computer finds patterns by measuring similarities or differences between data points.
+- It looks for things that seem to belong together.
+
+> It measures distances: Are these two data points (students, products, images) close or far from each other?
+> It groups based on closeness: Items that are similar stay together.
+> It repeats this until patterbs emerge - Like finding students with similar marks or customers with similar buying habits.
+
+2. What does it mean to group things?
+- Grouping means putting similar things together. In ML, these groups are called clusters.
+In the context of sutdets:
+- Group A: High performers in all subjects.
+- Group B: good at theory, weak in practice.
+- Group C: poor attendance, low score.
+
+The algorithm doesn't know these labels  - it just notices these patterns form the data and group them accordingly.
+The machine is creating categories based only on similarities, without us tellling it what to look for.
+
+3. Shrinking. Ehat soes it signigy?
+This is relates to PCA (Principle Component Analysis) a technique used to simplify complex data. 
+
+Imagine you have a table with 100 columns. PCA helps uks: 
+- Shrink (reduce) those 100 colomns into 2 or 3 meaningful ones 
+- It keeps the ost imp info.
+- It removes noise and repititive patterns,
+ Think of PCA like compressing a big suitvcase inot a small backpack without loosing the essential.
+
+
+In real life:
+- We may have 10 features for a student.
+- PCA will shrink this to may be 2 combined features "academic strength" and "attendance".
+
+
+#### K-Means algorithm: Unsupervised algorithm
+- Imagine you are sorting 100 different colored marbels. We want 3 groups based on color.
+- We randomly start with 3 color guesses.
+- We assign each marble to the nearest color group.
+- We adjust the color centers based on the actual group members. 
+- repeat until everything stabilizes.
+
+# Step by step algorithm
+- choose the number of clusters(k).
+- randomly place k points (called centroid).
+- assign each data point to the nearest centroid.
+- recalculate centroids based on assigned points.
+- repeat Steps 3-4 until centroids does not change.
+
+# Euclidean distance formula:
+ Straight line distance between two points in space.
+  for two points:
+  Point A=(x1,x2)
+  Point B=(y1,y2)
+  distance=sqrt [(x2-x1)^2 + (y2-y1)^2]  
+
+
+### PCA
+
